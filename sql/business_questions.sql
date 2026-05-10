@@ -25,6 +25,15 @@ GROUP BY sub_category
 ORDER BY total_revenue
 DESC LIMIT 10;
 
+-- Regions witht the most profit
+SELECT
+	region,
+	SUM(profit) as total_revenue
+FROM orders
+GROUP BY region
+ORDER BY total_revenue
+DESC;
+
 
 -- Region performance with YoY grwoth
 -- category
