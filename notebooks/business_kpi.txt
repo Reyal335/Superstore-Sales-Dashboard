@@ -1,0 +1,16 @@
+The 8 KPIs the dashboard should display
+
+Summary metrics cards (top of dashboard)
+1. Total Revenue            -> SUM (Sales)
+2. Total Profit             -> SUM (Profit)
+3. Overall Profit Margin    -> (SUM(Profit) / SUM(Sales))
+4. Total Orders             -> SUM (order id)
+
+Trend Chart
+5. Monthly revenue trend    -> Line chart, Sales by Month/Year
+
+Breakdown Charts
+6. Revenue by Region        -> Bar chart with profit color encoding
+7. Revenue by Sub-Category  -> Horizontal bar, sorted descending
+
+Relationship Chart
