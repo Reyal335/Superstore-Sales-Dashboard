@@ -1,0 +1,7 @@
+highlight_text==0.2
+matplotlib==3.11.0
+numpy==2.5.1
+pandas==3.0.3
+pypalettes==0.2.1
+seaborn==0.13.2
+squarify==0.4.4
